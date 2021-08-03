@@ -1,0 +1,49 @@
+.content {
+  padding: 20px;
+  margin-top: 30px;
+}
+/* Welcome */
+#welcome__title h1 {
+  font-family: var(--font-regular2);
+  font-weight: bold;
+}
+#login__logo {
+  width: 60%;
+}
+/* Login Area */
+.left {
+  display: flex;
+  justify-content: center;
+}
+.input_field {
+  border: none;
+
+  border-bottom: 1px solid #272828;
+}
+/* End Login Area */
+@media screen and (max-width: 576px) {
+  #welcome__title h1 {
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-family: var(--font-regular2);
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 576px) {
+  #welcome__title h1 {
+    font-size: 40px;
+    line-height: 1.3;
+  }
+  /* form */
+  .left {
+    display: flex;
+    justify-content: start;
+  }
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+
+  /* end form */
+}
